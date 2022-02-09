@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-    $(document).on("keypress", function(event){
-        console.log(event.charCode);
+    $(document).on("keydown", function(event){
         if(event.which == 37){
             $(".div").animate({
                 left: "-=10px"
