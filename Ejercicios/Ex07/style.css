@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+.nav{
+    height: 150px;
+    width: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.list li{
+    /*display: inline-block;*/
+    /* margin-left: 20px;
+    margin-top: 0px; */
+    font-size: 30px;
+    color: white;
+    list-style: none;
+}

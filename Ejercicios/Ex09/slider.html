@@ -1,0 +1,25 @@
+<html>
+<head>
+<style>
+</style>
+<script type="text/javascript" src="jquery-3.1.1.js">
+</script>
+<script>
+$(document).ready(function() { 
+	$('#slider div:gt(0)').hide();
+    setInterval(function(){
+      $('#slider div:first-child').fadeOut(0)
+         .next('div').fadeIn(1000)
+         .end().appendTo('#slider');}, 4000);
+});
+</script>
+</head>
+<body>
+<div id="slider">
+    <div><img src="uno.jpg"/></div>
+    <div><img src="dos.jpg"/></div>  
+    <div><img src="tres.jpg"/></div>
+    <div><img src="cuatro.jpg"/></div>  
+</div>
+</body>
+</html>
