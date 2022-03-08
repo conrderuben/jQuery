@@ -1,0 +1,29 @@
+.equipoazul{
+    background-color:rgb(95, 95, 224);
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    left: 40px;
+
+    text-align: center;
+    margin-top: 0px;
+}
+
+.equiporojo{
+    background-color:rgb(241, 55, 55);
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    float: right;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.pequeno{
+    width: 30px;
+    height: 30px;
+    order: 1px solid black;
+    position: absolute;
+    left: 100px;
+    background-color:red;
+}
